@@ -98,7 +98,13 @@
       const max = document.documentElement.scrollHeight - innerHeight;
       if (progress) progress.style.width = (max > 0 ? (scrollY / max) * 100 : 0) + '%';
       if (nav) nav.classList.toggle('is-stuck', scrollY > 8);
-      if (sticky && heroEl) sticky.classList.toggle('is-shown', scrollY > heroEl.offsetHeight * 0.8);
+      if (sticky && heroEl) {
+        /* Der Knopf verschwindet, sobald der Kontaktblock oder die Fußzeile ins Bild kommt,
+           damit er nie Text überdeckt. */
+        const stop = $('.cta') || $('.footer');
+        const covers = stop && stop.getBoundingClientRect().top < innerHeight - 40;
+        sticky.classList.toggle('is-shown', scrollY > heroEl.offsetHeight * 0.8 && !covers);
+      }
       ticking = false;
     });
   };
@@ -108,7 +114,9 @@
   /* ======================================================================
      Einblendungen: GSAP, sonst IntersectionObserver
      ====================================================================== */
-  const revealables = $$('.reveal').filter(el => !el.closest('.hero'));
+  /* Überschriften (h2) gehören dem Zoom und der Wortanimation, nicht der Einblendung:
+     gsap.to mit overwrite würde sonst den Zoom abbrechen. */
+  const revealables = $$('.reveal').filter(el => !el.closest('.hero') && el.tagName !== 'H2');
 
   if (hasGSAP) {
     gsap.set(revealables, { opacity: 0, y: 30 });
@@ -207,7 +215,7 @@
         curtain.setAttribute('aria-hidden', 'true');
         curtain.innerHTML =
           Array.from({ length: 5 }, () => '<div class="curtain-slat"></div>').join('') +
-          '<img class="curtain-logo" src="img/logo.png" alt="" width="1089" height="467" />' +
+          '<img class="curtain-logo" src="img/logo-light.png" alt="" width="1089" height="467" />' +
           '<span class="curtain-bar"></span>' +
           '<span class="curtain-skip">Überspringen</span>';
         document.body.appendChild(curtain);

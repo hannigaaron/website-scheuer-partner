@@ -142,7 +142,7 @@ def foot():
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="img/logo.png" alt="{e(NAME)}" class="footer-logo" width="1089" height="467" />
+      <img src="img/logo-light.png" alt="{e(NAME)}" class="footer-logo" width="1089" height="467" />
       <address>In den Freßäckern 10<br />74321 Bietigheim-Bissingen<br />Deutschland<br />
         <a href="tel:+49714270000">07142 7000-0</a><a href="mailto:{MAIL}">{MAIL}</a></address>
     </div>
@@ -193,7 +193,7 @@ CTA_CONTACT = """
     <div class="cta-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div class="cta-inner">
       <p class="kicker reveal" style="justify-content:center">Kontakt</p>
-      <h2 class="reveal" data-split>So finden Sie uns</h2>
+      <h2 data-split>So finden Sie uns</h2>
       <p class="reveal">Hier finden Sie unsere Adressdaten und Bürozeiten. Besuchen Sie unsere Kanzlei! Wir nehmen uns gerne Zeit für Sie.</p>
       <div class="cta-buttons reveal">
         <a href="tel:+49714270000" class="btn btn-lg magnetic">07142 7000-0 anrufen</a>
@@ -252,8 +252,13 @@ def index():
         for n, t, h, d in tiles)
     p += f"""
   <section class="hero" id="top">
+    <figure class="hero-media">
+      <img src="img/hero.jpg" alt="Das Enzviadukt in Bietigheim-Bissingen" width="1600" height="1066" fetchpriority="high" />
+      <span class="hero-wipe" aria-hidden="true"></span>
+    </figure>
+
     <div class="hero-inner">
-      <p class="eyebrow reveal">mbB Steuerberatungsgesellschaft · Bietigheim-Bissingen</p>
+      <p class="eyebrow reveal">Steuerberatungsgesellschaft <span class="keep-case">mbB</span></p>
       <div class="hero-title-zoom">
         <h1 class="hero-title"><span class="line"><span>Scheuer</span></span><span class="line accent"><span>&amp; Partner</span></span></h1>
         <span class="title-rule" aria-hidden="true"></span>
@@ -264,11 +269,6 @@ def index():
         <a href="#kontakt" class="btn btn-ghost btn-lg">Kontakt</a>
       </div>
     </div>
-
-    <figure class="hero-media">
-      <img src="img/viadukt.jpg" alt="Das Enzviadukt in Bietigheim-Bissingen" width="647" height="809" fetchpriority="high" />
-      <span class="hero-wipe" aria-hidden="true"></span>
-    </figure>
 
     <dl class="stats reveal">
       <div class="stat"><dt>Gegründet</dt><dd data-count="1961" data-from="1900">1961</dd></div>
@@ -295,7 +295,7 @@ def index():
       </figure>
       <div>
         <p class="kicker reveal">Über uns</p>
-        <h2 class="reveal" data-split>Seit 1961 an Ihrer Seite</h2>
+        <h2 data-split>Seit 1961 an Ihrer Seite</h2>
         <p class="reveal">Generalistenwissen vereint sich dabei mit Spezialisten-Know-how. Unsere Beratung ist umsetzungsorientiert und unternehmerisch geprägt. Wir entwickeln Lösungen, die maßgeschneidert zu Ihnen passen. Dann setzen wir die Lösungen zusammen mit Ihnen um. Dies machen wir schon seit über 60 Jahren.</p>
         <p class="reveal">Die Kanzlei hat sich als kompetenter Berater in der Region einen Namen gemacht. Seit nunmehr über 60 Jahren liegt unsere Stärke in der interdisziplinären Ausrichtung.</p>
         <p class="reveal"><a class="arrow-link" href="ueber-uns.html">Über uns</a> &nbsp; <a class="arrow-link" href="team.html">Der richtige Ansprechpartner</a></p>
@@ -305,7 +305,7 @@ def index():
     p += section("""    <div class="split flip">
       <div>
         <p class="kicker reveal">Karriere</p>
-        <h2 class="reveal" data-split>Ihre Karriere bei uns</h2>
+        <h2 data-split>Ihre Karriere bei uns</h2>
         <p class="reveal">Wir unterstützen seit über 60 Jahren erfolgreich mittelständische Unternehmen und Privatkunden im Bereich Steuern und Buchführung. In unserer Kanzlei setzen wir neben Fachkompetenz auf eine familiäre Atmosphäre und flache Hierarchien.</p>
         <ul class="jobs reveal">
           <li>Finanzbuchhalter (m/w/d)</li>
@@ -322,7 +322,7 @@ def index():
     p += section("""    <div class="split">
       <div>
         <p class="kicker reveal">Digitale Kanzlei</p>
-        <h2 class="reveal" data-split>Digitalisierung</h2>
+        <h2 data-split>Digitalisierung</h2>
         <p class="reveal">Vorteile der Digitalisierung: Im Rechnungswesen können in Ihrem Unternehmen Prozesse zunehmend digitalisiert und automatisiert werden. Profitieren Sie von den vielen Möglichkeiten!</p>
         <div class="toolrow reveal">
           <a class="chip" href="service.html#tools">Online-Tools</a>
@@ -383,7 +383,7 @@ CTA_CONTACT_FULL = """
     <div class="cta-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div class="cta-inner" style="max-width:940px">
       <p class="kicker reveal" style="justify-content:center">Kontakt</p>
-      <h2 class="reveal" data-split>So finden Sie uns</h2>
+      <h2 data-split>So finden Sie uns</h2>
       <p class="reveal">Hier finden Sie unsere Adressdaten und Bürozeiten. Besuchen Sie unsere Kanzlei! Wir nehmen uns gerne Zeit für Sie.</p>
       <div class="contact-grid reveal" style="text-align:left;margin-top:2.4rem">
         <div class="box">
@@ -424,7 +424,7 @@ def ueber_uns():
     body = section(f"""    <div class="split">
       <div>
         <p class="kicker reveal">Geschichte</p>
-        <h2 class="reveal" data-split>Seit über 60 Jahren</h2>
+        <h2 data-split>Seit über 60 Jahren</h2>
         <p class="reveal">Roland Scheuer gründete im April 1961 in Besigheim eine Steuerkanzlei. Seit 1965 befindet sich die Kanzlei in den heutigen Räumen in Bietigheim-Bissingen. Im Januar 2005 brachte Roland Scheuer seine Kanzlei in die Partnerschaftsgesellschaft Scheuer &amp; Partner ein, deren Partner er weiterhin war.</p>
         <p class="reveal">Die Kanzlei hat sich als kompetenter Berater in der Region einen Namen gemacht. Seit nunmehr über 60 Jahren liegt unsere Stärke in der interdisziplinären Ausrichtung. Dies ermöglicht uns passende Lösungen in den Bereichen Steuerberatung, Bilanzierung und betriebswirtschaftliche Beratung zu erarbeiten und umzusetzen. Mit gleichem Engagement beraten wir im Rahmen der Finanzplanung und in wirtschaftsrechtlichen Fragen.</p>
       </div>
@@ -433,7 +433,7 @@ def ueber_uns():
     body += section("""    <div class="split flip">
       <div>
         <p class="kicker reveal">Das Team</p>
-        <h2 class="reveal" data-split>Rund 30 Personen</h2>
+        <h2 data-split>Rund 30 Personen</h2>
         <p class="reveal">Rund 30 Personen sind in unserer Kanzlei tätig. Diese Größe lässt genügend Raum für Individualität und führt zur Identifikation mit den Anliegen unserer Mandanten.</p>
         <p class="reveal">Unsere Größe bietet auch das notwendige Potential zur Lösung komplexer und umfangreicher Aufgaben. Ohne Spezialwissen wären diese nicht zu lösen.</p>
         <p class="reveal">Unsere Mandanten verfolgen ehrgeizige Ziele. Letztendlich steht die bestmögliche Beratung von Unternehmern und Privatpersonen im Mittelpunkt unserer Tätigkeit.</p>
@@ -569,7 +569,7 @@ def leistungen():
          ["Gutachten zu steuerrechtlichen Fragestellungen", "Beratung bei der Rechtsformwahl", "Individuelle Steuerplanung", "Gestaltung von Unternehmensübertragungen", "Steuergestaltung bei Unternehmensreorganisationen", "Steuerliche Konzeption der Finanzierung in Unternehmen und im Privatbereich"]),
         ("Steuerdeklaration und laufende Beratung", "Laufende Beratung fängt nicht erst bei der Jahresabschlusserstellung an. Sie werden von uns laufend über Änderungen informiert. Nicht erst, wenn Sie fragen. Wir sind der Überzeugung das ist effizienter. Gesetzesänderungen, neue Gerichtsurteile oder Verwaltungsvorschriften erfahren Sie aus unseren Mandantenrundschreiben, aber auch direkt von Ihrem Berater. Dadurch können wir uns zusammen mit Ihnen auf neue Entwicklungen rechtzeitig einstellen.",
          ["Ausarbeitung von Steuererklärungen", "Prüfung von Steuerbescheiden", "Beratung bei Fragen zum Jahresabschluss und zum Bilanzsteuerrecht", "Teilnahme an Betriebsprüfungen und an Schlussbesprechungen", "Beratung bei Umsatzsteuer-Sonderprüfungen", "Umsatzsteuervergütung im In- und Ausland"])):
-        sb.append(f'<div class="box reveal"><h3>{e(h)}</h3><p>{e(p_)}</p><div class="person" style="border:0;clip-path:none;padding:1rem 0 0;background:none">{ul(items)}</div></div>')
+        sb.append(f'<div class="box reveal"><h3>{e(h)}</h3><p>{e(p_)}</p>{ul(items, "checklist")}</div>')
     P = "steuerberatung"
     blocks = ['<div class="contact-grid">' + "".join(sb) + "</div>",
               gt("Informationen"), info_cards(P, [("FAQ – Steuern", "faq_steuern"), ("Steuerlexikon", "steuerlexikon"),
@@ -799,7 +799,7 @@ def impressum():
     <h2>Entwurf und Umsetzung der Webseite</h2>
     <p><span class="todo">Angabe zu Entwurf und Umsetzung eintragen (Name, Anschrift, Kontakt). Der bisherige Eintrag nennt Atikon Marketing &amp; Werbung GmbH und gilt für die neue Seite nicht.</span></p>
     <h2>Verwendete Schriften</h2>
-    <p>Archivo und Instrument Sans, beide unter der SIL Open Font License. Die Schriften liegen auf diesem Server, es erfolgt keine Verbindung zu Dritten.</p>
+    <p>Cormorant Garamond und Inter, beide unter der SIL Open Font License. Die Schriften liegen auf diesem Server, es erfolgt keine Verbindung zu Dritten.</p>
     <h2>Diese Seite wird betrieben durch</h2>
     <address><strong>{e(NAME)}</strong><br />In den Freßäckern 10<br />74321 Bietigheim-Bissingen<br />Deutschland</address>
     <h2>Verantwortlicher im Sinne des § 18 Absatz 2 Medienstaatsvertrag (MStV)</h2>
