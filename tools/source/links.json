@@ -1,0 +1,418 @@
+{
+ "steuerberatung": [
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/steuerberatung/faq_steuern/",
+   "FAQ – Steuern Antworten auf die wichtigsten Steuerfragen - von Betriebsausgabe bis Kinderbetreuung"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/steuerberatung/steuerlexikon/",
+   "Steuerlexikon Steuerbegriffe kurz und präzise erklärt"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/steuerberatung/faq_rechtsformgestaltung/",
+   "FAQ – Rechtsformgestaltung Antworten auf die wichtigsten Fragen der Rechtsformgestaltung"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/steuerberatung/faq_kfz/",
+   "FAQ - Kfz Alles zum Thema Kfz und Fahrtkosten auf einem Blick"
+  ],
+  [
+   "https://formulare.atikon.de/scheuer-partner.de/de/checkliste_einkommensteuer.xlsx",
+   "Checkliste Einkommensteuer (< 1MB) Gut vorbereitet für die Einkommensteuer-Erklärung – dank unserer Checkliste"
+  ]
+ ],
+ "finanzbuchhaltung": [
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/faq_finanzbuchhaltung/",
+   "FAQ – Finanzbuchhaltung Welche Belege werden für die Buchhaltung benötigt, welche Rechnungsmerkmale sind wichtig, was ist eine Kleinbetragsrechnung, ... usw."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/rechnungsmerkmale/",
+   "Rechnungsmerkmale So muss eine Rechnung aussehen - ein praktischer Leitfaden."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/aufbewahrungspflichten_und_fristen/",
+   "Aufbewahrungspflichten und -fristen Gewerbetreibende Unternehmer und selbstständig Tätige unterliegen bestimmten steuerrechtlichen Aufzeichnungs- oder Buchführungspflichten"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/fahrtenbuch/",
+   "Fahrtenbuch Ein Fahrtenbuch dient zur Dokumentation der mit einem Kraftfahrzeug zurückgelegten Fahrstrecken sowie der Anlässe der jeweiligen Fahrten."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/kassenbuch/",
+   "Kassenbuch Ein Kassenbuch erfasst alle baren Geschäftsvorfälle eines Unternehmens und dient der Verwaltung der internen Kasse."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/finanzbuchhaltung/gobd/",
+   "GoBD Die neuen Grundsätze der Finanzverwaltung zur elektronischen Buchführung und Datenarchivierung"
+  ],
+  [
+   "https://formulare.atikon.de/scheuer-partner.de/de/reisekostenabrechnung.xlsx",
+   "Reisekostenabrechnung (< 1MB) Abrechnung von Reisekosten - ganz einfach mit unserem Formular"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/fahrtenbuch/",
+   "Fahrtenbuch Was ist ein Fahrtenbuch und welche Mindestangaben sind festzuhalten? In unserem Infovideo entdecken Sie, wie ein Fahrtenbuch ordnungsgemäß geführt ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/kassenbuch/",
+   "Kassenbuch Wie führe ich ein Kassenbuch? Welche Geschäftsvorfälle und welche Daten sind zu erfassen? In unserem Infovideo erfahren Sie, wie die Einträge ins ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/rechnungsmerkmale/",
+   "Rechnungsmerkmale Eine Rechnung muss gewissen Formvorschriften entsprechen, damit diese zum Vorsteuerabzug berechtigt. Erfahren Sie in unserem Infovideo, auf welche ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/steuerfreie_lohnbestandteile_f%C3%BCr_arbeitnehmer/",
+   "Steuerfreie Lohnbestandteile für Arbeitnehmer Wollen Sie Ihren Arbeitnehmern zu mehr „Netto“ vom „Brutto“ verhelfen? Das Einkommensteuergesetz bietet eine Vielzahl von steuerfreien ..."
+  ]
+ ],
+ "lohnbuchhaltung": [
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/faq_lohnbuchhaltung/",
+   "FAQ – Lohnbuchhaltung Antworten auf die brennendsten Fragen - von Urlaubszuschuss bis Verpflegungsmehraufwand"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/faq_homeoffice/",
+   "FAQ – Homeoffice Sie möchten wissen, welche Regeln für die Arbeit im Homeoffice gelten? Bei uns finden Sie alle wichtigen Informationen dazu!"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/steuerermaessigung_bei_haushaltsnahen_taetigkeiten/",
+   "Steuerermäßigung bei haushaltsnahen Tätigkeiten Welche Aufwendungen zählen zu haushaltsnahen Tätigkeiten?"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/steuerfreie_lohnbestandteile_fuer_arbeitnehmer/",
+   "Steuerfreie Lohnbestandteile für Arbeitnehmer Welche Lohnbestandteile sind von der Steuer befreit?"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/der_gesetzliche_mindestlohn/",
+   "Der gesetzliche Mindestlohn Fragen zum Mindestlohn? Hier finden Sie alle wichtigen Informationen rund um dieses Thema."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/reisekostensaetze_laenderuebersicht/",
+   "Reisekostensätze – Länderübersicht Welche Reisekostensätze gelten in welchen Ländern? Hier finden Sie die Länderübersicht."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/lohnbuchhaltung/reisekostenrecht/",
+   "Reisekostenrecht Welche Reisekosten sind steuerfrei? Wir geben Antwort."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/dienstnehmer/abmeldung?format=2",
+   "Online Mitarbeiter Abmeldung Mitarbeiterdaten für Abmeldung praktisch online erfassen"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/dienstnehmer/aenderung?format=2",
+   "Online Mitarbeiter Änderung Änderungen bei Mitarbeitern praktisch online erfassen"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/dienstnehmer/anmeldung_minijob?format=2",
+   "Online Neueinstellung Minijob Schnell und einfach neue Minijob-Arbeitnehmer online anmelden"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/dienstnehmer/anmeldung?format=2",
+   "Online Neueinstellungsbogen Neue Arbeitnehmer schnell und einfach online anmelden"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/dienstnehmer/sofortmeldung?format=2",
+   "Online Sofortmeldung Sofortmeldung ganz einfach online durchführen"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/steuerfreie_lohnbestandteile_f%C3%BCr_arbeitnehmer/",
+   "Steuerfreie Lohnbestandteile für Arbeitnehmer Wollen Sie Ihren Arbeitnehmern zu mehr „Netto“ vom „Brutto“ verhelfen? Das Einkommensteuergesetz bietet eine Vielzahl von steuerfreien ..."
+  ]
+ ],
+ "nachfolgeberatung": [
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/nachfolgeberatung/schenkungsteuer/",
+   "Schenkungsteuer Die Schenkungsteuer ist der Erbschaftsteuer sehr ähnlich, bezieht sich aber auf Schenkungen zu Lebzeiten."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/nachfolgeberatung/vermoegensuebertragung_auf_kinder/",
+   "Vermögensübertragung auf Kinder Mit Vermögensübertragungen auf Kinder bzw. einer Verteilung des Vermögens im Familienbund lassen sich Steuern sparen."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/nachfolgeberatung/rechtsformvergleich/",
+   "Rechtsformvergleich Personen- und Kapitalgesellschaften im Vergleich"
+  ]
+ ],
+ "digitale-kanzlei": [
+  [
+   "https://www.scheuer-partner.de/de/digitale_kanzlei/elektronische_rechnungen_praxistipps/",
+   "Elektronische Rechnungen – Praxistipps Wissenswertes und Praxistipps rund um elektronische Rechnungen"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/digitale_kanzlei/addison_oneclick/",
+   "ADDISON OneClick Buchführung, Datenmanagement und Dateneinsicht in Echtzeit! Mit ADDISON OneClick nutzen Sie eine moderne Cloud-Lösung für digitalen Datenaustausch mit Ihrem Steuerberater."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/de/digitalfitnesscheck",
+   "Digital-Fitness-Check Wie schneidet Ihr Rechnungswesen im Digital-Fitness-Check ab? Welche Arbeitsabläufe sind fit und wo gibt es digitales Potenzial? Jetzt Check starten!"
+  ]
+ ],
+ "online-tools": [
+  [
+   "https://rechner.atikon.at/scheuer-partner.de/annuitaeten?format=2",
+   "Annuitäten-Rechner Berechnen Sie mit unserem hilfreichen Annuitäten-Rechner Ihre monatlichen Rückzahlungsraten anhand von Kredithöhe, Zinssatz und Laufzeit."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/betriebliche_altersvorsorge?format=2&dz=1001",
+   "Betriebliche-Altersvorsorge Sie möchten gerne wissen, ob eine betriebliche Altersvorsorge für Sie in Frage kommt? Machen Sie sich ein Bild und finden Sie heraus, ob sich Vorteile für Sie ergeben."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/brutto_netto?format=2&dz=1001",
+   "Brutto-Netto-Rechner Berechnen Sie mit diesem praktischen Brutto-Netto-Rechner wie sich z. B. Gehaltsveränderungen von Mitarbeitern auf Ihre Kosten auswirken."
+  ],
+  [
+   "https://rechner.atikon.at/scheuer-partner.de/chancen?format=2",
+   "Chancen-Rechner Es gibt nur vier Faktoren, die Ihren Gewinn steigern! Testen Sie, was dies für Ihren Erfolg bedeutet!"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/de/digitalfitnesscheck",
+   "Digital-Fitness-Check Wie schneidet Ihr Rechnungswesen im Digital-Fitness-Check ab? Welche Arbeitsabläufe sind fit und wo gibt es digitales Potenzial? Jetzt Check starten!"
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/einkommensteuer?format=2&bundesland=1001",
+   "Einkommensteuer-Rechner Mit diesem hilfreichen Rechner können Sie eine Vorschau auf die anfallenden Steuern ermitteln. Einfach Gewinn eingeben und voraussichtliche Einkommensteuer berechnen."
+  ],
+  [
+   "https://rechner.atikon.at/scheuer-partner.de/reminder?format=2",
+   "Erinnerungsservice Mit unserem Erinnerungsservice bieten wir Ihnen regelmäßig professionelle Unterstützung bei der Einhaltung Ihrer steuerlichen Termine."
+  ],
+  [
+   "https://rechner.atikon.at/scheuer-partner.de/haushalt?format=2",
+   "Haushalts-Rechner Was bleibt am Ende des Monats? Berechnen Sie mit wenigen Klicks Ihr frei verfügbares Einkommen nach Berücksichtigung anfallender Haushaltsausgaben."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/lebensstandard?format=2",
+   "Lebensstandard-Rechner Wie kann der aktuelle Lebensstandard auch im Alter gehalten werden? Darauf gibt der Lebensstandardrechner Antwort - unter Berücksichtigung der Inflation."
+  ],
+  [
+   "https://rechner.atikon.at/scheuer-partner.de/skonto?format=2",
+   "Skonto-Rechner Lohnt es sich mit Skontoabzug zu bezahlen oder nicht? Mit unserem Skonto-Rechner erhalten Sie rasch und mit nur wenigen Klicks Antwort darauf."
+  ],
+  [
+   "https://rechner.atikon.de/scheuer-partner.de/vermoegensbilanz?format=2",
+   "Vermögensbilanz Machen Sie sich ein Bild Ihrer aktuellen Finanzlage, geben Sie Ihre aktuellen Zahlen ein und berechnen Sie auf einen Klick Ihre Vermögensbilanz."
+  ]
+ ],
+ "downloads": [
+  [
+   "https://formulare.atikon.de/scheuer-partner.de/de/checkliste_einkommensteuer.xlsx",
+   "Checkliste Einkommensteuer (< 1MB) Gut vorbereitet für die Einkommensteuer-Erklärung – dank unserer Checkliste"
+  ],
+  [
+   "https://formulare.atikon.de/scheuer-partner.de/de/reisekostenabrechnung.xlsx",
+   "Reisekostenabrechnung (< 1MB) Abrechnung von Reisekosten - ganz einfach mit unserem Formular"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads3/download/ger/Fragebogen_Nachweis_Kinder_PV.pdf?checksum=e8ef7fa2a2484628bb1290dfe5e089159c998214",
+   "Fragebogen Nachweis Kinder PV (159KiB) Fragebogen Nachweis Kinder für die Pflegeversicherung"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads4/download/ger/Mandanten-Rundschreiben%2010-2018.pdf?checksum=f1e661618cf281a0f8ffe46ded94940efad8777c",
+   "Mandanten-Rundschreiben 10-2018 (114KiB) Mandanten-Rundschreiben Oktober 2018"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads5/download/ger/Mandanten-Rundschreiben%2009-2018.pdf?checksum=20784785a7fc22258e5037b18335fe3f56d0fa25",
+   "Mandanten-Rundschreiben 09-2018 (120KiB) Mandanten-Rundschreiben September 2018"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads6/download/ger/Mandanten-Rundschreiben%2008-2018.pdf?checksum=7acb686b48927e43d5d5a9cc664a51c305beab24",
+   "Mandanten-Rundschreiben 08-2018 (119KiB) Mandanten-Rundschreiben August 2018"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads7/download/ger/Hinweise-zum-Jahreswechsel-2018-2019.pdf?checksum=0a842d97dc4aa27931bfb627c06b84699ead5f95",
+   "Hinweise zum Jahreswechsel 2018/2019 (56KiB) Hinweise 2018/2019 für Mandanten von Scheuer & Partner mbB"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads8/download/ger/Fragebogen_Nachweis_Kinder_PV.pdf?checksum=7d05346b718881d5bb6871ad1eca2fdb1148bfcc",
+   "Fragebogen Nachweis Kinder PV (165KiB) PDF-Dokument"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads9/download/ger/Personalfragebogen.pdf?checksum=f93d5e803836294d9a404c25654815a70ba0c9ac",
+   "Personalfragebogen (188KiB) PDF-Dokument"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads10/download/ger/Personalfragebogen_Minijobs.pdf?checksum=81f83fea69d1419807988b8d9298254fe68a1529",
+   "Personalfragebogen Minijobs (205KiB) PDF-Dokument"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads11/download/ger/Personalfragebogen_Kuendigung.pdf?checksum=8e83068fc73be17d71b886fed26184c84dfa53e5",
+   "Personalfragebogen Kündigung (205KiB) PDF-Dokument"
+  ],
+  [
+   "https://www.scheuer-partner.de/static/content/downloads12/download/ger/stundenaufzeichnung_milog.pdf?checksum=50040fad6bf980e865c274a1f027e940f93fa7fc",
+   "Stundenaufzeichnung MiLoG (103KiB) PDF-Dokument"
+  ]
+ ],
+ "links": [
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/links/beh%C3%B6rdenverzeichnis/",
+   "Behördenverzeichnis Links zu Behörden und Ämtern"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/links/heilberufe/",
+   "Heilberufe Links zu Kammern, Verbänden und Gesundheitsportalen"
+  ]
+ ],
+ "videos": [
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_tv/oktober_2026/h%C3%A4usliches_arbeitszimmer_auf_diese_aufzeichnungspflichten_kommt_es_an/",
+   "Oktober 2026: Häusliches Arbeitszimmer: Auf diese Aufzeichnungspflichten ... Selbstständige, die ihre Tätigkeit ausschließlich in ihrem häuslichen Arbeitszimmer ausüben, können laufende Aufwendungen sowie Kosten der ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_tv/september_2026/altersvorsorgereformgesetz_was_ist_neu_/",
+   "September 2026: Altersvorsorgereformgesetz: Was ist neu? Mit dem Altersvorsorgereformgesetz wird die steuerlich geförderte private Altersvorsorge reformiert. Diese soll künftig kostengünstiger und ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_tv/august_2026/sind_immobilien_seminare_steuerlich_absetzbar_/",
+   "August 2026: Sind Immobilien-Seminare steuerlich absetzbar? Vermieterinnen und Vermieter können Fortbildungskosten für Seminare zu den Themen Immobilienverwaltung und steuerliche Optimierung als Werbungskosten ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_tv/juli_2026/bmf_schreiben_bringt_neuerungen_beim_ladestrom_f%C3%BCr_e_autos/",
+   "Juli 2026: BMF-Schreiben bringt Neuerungen beim Ladestrom für E-Autos Das Bundesfinanzministerium hat die bisherigen ladeunabhängigen monatlichen Pauschalen für E-Autos, die Arbeitgeberinnen und Arbeitgeber ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/fahrtenbuch/",
+   "Fahrtenbuch Was ist ein Fahrtenbuch und welche Mindestangaben sind festzuhalten? In unserem Infovideo entdecken Sie, wie ein Fahrtenbuch ordnungsgemäß geführt ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/faq_auto/",
+   "FAQ - Auto Wann zählt ein Fahrzeug zum Privat- bzw. Betriebsvermögen? Was ist bei der Anschaffung und Fahrzeugnutzung zu beachten? In unserem Infovideo ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/faq_finanzbuchhaltung/",
+   "FAQ - Finanzbuchhaltung Welche Unterlagen brauchen wir als Ihr Steuerberater von Ihnen? Welche Bestimmungen und Fristen sind in puncto Buchführung zu beachten? Entdecken Sie ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/faq_gr%C3%BCndungsberatung/",
+   "FAQ - Gründungsberatung Sie planen, Ihr eigenes Unternehmen zu gründen? Wir möchten Ihnen dabei mit Rat und Tat zur Seite stehen. Wertvolle Tipps, worauf Sie in der ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/gesetzlicher_mindestlohn/",
+   "Gesetzlicher Mindestlohn Seit dem 1.1.2015 gilt deutschlandweit ein gesetzlicher Mindestlohn. Doch wer unterliegt diesem, welche Ausnahmen gibt es und wie wird der ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/kassenbuch/",
+   "Kassenbuch Wie führe ich ein Kassenbuch? Welche Geschäftsvorfälle und welche Daten sind zu erfassen? In unserem Infovideo erfahren Sie, wie die Einträge ins ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/rechnungsmerkmale/",
+   "Rechnungsmerkmale Eine Rechnung muss gewissen Formvorschriften entsprechen, damit diese zum Vorsteuerabzug berechtigt. Erfahren Sie in unserem Infovideo, auf welche ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/steuerfreie_lohnbestandteile_f%C3%BCr_arbeitnehmer/",
+   "Steuerfreie Lohnbestandteile für Arbeitnehmer Wollen Sie Ihren Arbeitnehmern zu mehr „Netto“ vom „Brutto“ verhelfen? Das Einkommensteuergesetz bietet eine Vielzahl von steuerfreien ..."
+  ],
+  [
+   "https://www.scheuer-partner.de/de/service_leistungen/videos/infovideos/steuertipps_zum_jahresende/",
+   "Steuertipps zum Jahresende Welche Möglichkeiten zur Steueroptimierung sollte man noch vor Jahresende angehen? In unserem Video entdecken Sie Tipps u. a. zu geringwertigen ..."
+  ]
+ ],
+ "news": [
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/elektronische_fuehrung_ergaenzender_entgeltunterlagen/",
+   "Lesen Sie mehr"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/reform_der_betriebspruefung/",
+   "Lesen Sie mehr"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/neues_verpackungsrecht/",
+   "Lesen Sie mehr"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/einkommensteuerreformgesetz_2027/",
+   "Lesen Sie mehr"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/",
+   "Steuernews für Mandanten"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_%C3%A4rzte/",
+   "Steuernews für Ärzte"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/tipp_steuerfreier_erwerb_des_familienwohnheims/",
+   "Tipp: Steuerfreier Erwerb des Familienwohnheims BFH-Urteil ändert bisherige Gestaltungspraxis"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/international_passive_entstrickung/",
+   "International: Passive Entstrickung BFH hält Besteuerung stiller Reserven bei passiver Entstrickung für rechtmäßig"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/meldung_von_kryptoanlagen/",
+   "Meldung von Kryptoanlagen Erweiterung des automatischen Informationsaustausches auf Kryptoanlagen"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/oktober_2026/kleinunternehmer_aufgepasst_/",
+   "Kleinunternehmer aufgepasst! Wichtige Ausnahmen von der allgemeinen Abgabebefreiung"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/september_2026/programm_fuer_aufschwung_und_beschaeftigung/",
+   "September 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/august_2026/arbeitgeberleistungen_zur_fussball_wm/",
+   "August 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/juli_2026/ferienjobs_fuer_schueler_und_studenten/",
+   "Juli 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/juni_2026/vollverzinsung_fuer_umsatzsteuer/",
+   "Juni 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/mai_2026/neuerungen_bei_der_gewerbe__und_grunderwerbsteuer/",
+   "Mai 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/april_2026/altersvorsorgereformgesetz/",
+   "April 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/m%C3%A4rz_2026/parkplatzmiete/",
+   "März 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/februar_2026/steueraenderungsgesetz_2025/",
+   "Februar 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/januar_2026/mindestlohn_mini__und_midijobs_2026/",
+   "Januar 2026"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/dezember_2025/steuertarif_2026/",
+   "Dezember 2025"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/news/steuernews_f%C3%BCr_mandanten/november_2025/steueraenderungsgesetz_2025/",
+   "November 2025"
+  ],
+  [
+   "https://www.scheuer-partner.de/",
+   "Logo: Scheuer & Partner mbB Steuerberatungsgesellschaft"
+  ],
+  [
+   "https://www.atikon.com/",
+   "by atikon"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/%C3%BCber_uns/impressum_und_haftung/",
+   "Impressum"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/%C3%BCber_uns/datenschutzerkl%C3%A4rung/",
+   "Datenschutz"
+  ],
+  [
+   "https://www.scheuer-partner.de/de/sitemap/",
+   "Sitemap"
+  ]
+ ]
+}
