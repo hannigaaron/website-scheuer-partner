@@ -142,7 +142,7 @@ def foot():
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="img/logo-light.png" alt="{e(NAME)}" class="footer-logo" width="1089" height="467" />
+      <img src="img/logo.png" alt="{e(NAME)}" class="footer-logo" width="1089" height="467" />
       <address>In den Freßäckern 10<br />74321 Bietigheim-Bissingen<br />Deutschland<br />
         <a href="tel:+49714270000">07142 7000-0</a><a href="mailto:{MAIL}">{MAIL}</a></address>
     </div>
@@ -173,7 +173,6 @@ def foot():
   <div class="footer-bottom"><small>© 2026 {e(NAME)}</small></div>
 </footer>
 
-<a class="sticky-cta" href="kontakt.html" id="sticky-cta">Kontakt aufnehmen</a>
 <script src="vendor/gsap.min.js"></script>
 <script src="vendor/ScrollTrigger.min.js"></script>
 <script src="vendor/lenis.min.js"></script>

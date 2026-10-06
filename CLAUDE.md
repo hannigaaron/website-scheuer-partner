@@ -14,7 +14,7 @@ senkrechten Balken aus dem Kanzlei-Logo sind das wiederkehrende Zeichen.
   läuft kein Build.
 - `styles.css`, `script.js`: ein Stylesheet, ein Skript für alle Seiten.
 - `vendor/` GSAP, ScrollTrigger, Lenis. `fonts/` Cormorant Garamond und Inter. Beides lokal.
-- `tools/photos.py` erzeugt alle Fotos in `img/` aus `tools/source/photos/` (Verlauf Tannengrün nach Elfenbein, dadurch kein Blau). Dazu `logo-light.png`, Favicon, Vorschaubild.
+- `tools/photos.py` erzeugt alle Fotos in `img/` aus `tools/source/photos/` (zuschneiden und schärfen, keine Farbänderung). Dazu Favicon und Vorschaubild.
 - `tools/source/` Originaltexte und gesammelte Links der bisherigen Seite.
 - Lokal prüfen: `python3 -m http.server 8000`
 
@@ -26,8 +26,8 @@ Geprüft wird auf Handy 390/430 px, iPad 768 hoch und 1024 quer, Desktop 1440.
 - **Kein Text überlagert anderen Text**, auch nicht kurz in einer Animation.
   Der Zoom der Überschriften reserviert seinen Platz vorher (`.head-box`).
   Überschriften (`h2`) bekommen nie die Klasse `reveal`: deren `gsap.to` mit
-  `overwrite` bricht sonst den Zoom ab. Der mobile Kontaktknopf verschwindet
-  vor dem Kontaktblock.
+  `overwrite` bricht sonst den Zoom ab. Es gibt bewusst keinen
+  schwebenden Knopf, der beim Scrollen Text abdecken könnte.
 - Das Menü ist unter 1180 px ein Vollbild-Menü. `.nav.is-open` schaltet
   `backdrop-filter` ab, sonst sperrt es das fixierte Menü im Balken ein.
 
@@ -39,19 +39,20 @@ Geprüft wird auf Handy 390/430 px, iPad 768 hoch und 1024 quer, Desktop 1440.
 - Werbung muss sachlich bleiben (Berufsrecht Steuerberater). Keine Superlative.
 
 ### Farben und Schrift
-Nur Farben des Kanzlei-Logos und Abkömmlinge davon. **Kein Blau, nirgends.**
-`--green #16a355` (Logo-Grün), `--green-deep #0f6b3d` (Schrift auf hellem Grund),
-`--green-lt #7fdba6` (Schrift auf dunklem Grund), `--ink-mid #5b5b5b` (Logo-Grau),
-dazu Tannengrün `--forest #0b2a1d` für dunkle Flächen und Elfenbein
-`--paper-alt #f3f1ea`. Überschriften Cormorant Garamond (500), Text Inter.
-Eckige Schaltflächen, feine Linien, keine Rundungen außer dem Bogenfenster `.media-b`.
+Der Hauptteil ist **weiß**. Als Farbe gibt es nur das Grün des Logos und sein Grau.
+**Kein Blau in der Gestaltung, keine dunklen Flächen, keine Farbfilter.**
+`--green #16a355` (Logo-Grün für Linien, Flächen, große Elemente),
+`--green-deep #0d7a3f` (derselbe Ton, dunkler, für kleine Schrift wegen des Kontrasts),
+`--ink-mid #5b5b5b` (Logo-Grau), `--ink #262626`, `--paper-alt #f6f6f4` für Wechselflächen.
+Überschriften Cormorant Garamond (500), Text Inter. Eckige Schaltflächen,
+feine Linien, keine Rundungen außer dem Bogenfenster `.media-b`.
 
 ### Bilder
 Alle unter `img/`. Die Fotos stammen von der bisherigen Kanzleiseite
 (Stockfotos und Enzviadukt/Altstadt Bietigheim). Die Kanzlei hat die Nutzung
 mündlich erlaubt. **Offen:** schriftliche Bestätigung und Lizenz der Stockfotos.
 Jedes Foto bekommt eine andere Behandlung (`.media-a` Rahmen, `.media-b` Bogen, `.media-c` randlos).
-Alle Fotos laufen durch `tools/photos.py` (grüner Verlauf statt Farbe).
+**Fotos bleiben in Originalfarben**, ohne Filter. `tools/photos.py` schneidet nur zu und schärft nach.
 
 ### Datenschutz
 Beim Aufruf geht **keine Anfrage an Dritte** hinaus. Externe Ziele
