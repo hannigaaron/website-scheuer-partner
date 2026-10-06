@@ -43,7 +43,7 @@
   }
 
   const navOffset = () => -(($('#nav') || { offsetHeight: 76 }).offsetHeight + 12);
-  $$('a[href^="#"]').forEach(a => {
+  $$('a[href^="#"]:not([href^="#/"])').forEach(a => {
     a.addEventListener('click', (e) => {
       const id = a.getAttribute('href');
       if (id === '#' || id.length < 2) return;

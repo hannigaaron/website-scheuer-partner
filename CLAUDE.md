@@ -15,6 +15,7 @@ senkrechten Balken aus dem Kanzlei-Logo sind das wiederkehrende Zeichen.
 - `styles.css`, `script.js`: ein Stylesheet, ein Skript für alle Seiten.
 - `vendor/` GSAP, ScrollTrigger, Lenis. `fonts/` Cormorant Garamond und Inter. Beides lokal.
 - `tools/photos.py` erzeugt alle Fotos in `img/` aus `tools/source/photos/` (zuschneiden und schärfen, keine Farbänderung). Dazu Favicon und Vorschaubild.
+- `tools/bundle.py` packt nach dem Bauen alle Seiten samt Schriften, Bildern und Skripten in **eine** Datei `Scheuer-Partner-Entwurf.html` (zum Verschicken, läuft per Doppelklick ohne Internet, Seitenwechsel über `#/seite`). Die Datei wird nicht eingecheckt.
 - `tools/source/` Originaltexte und gesammelte Links der bisherigen Seite.
 - Lokal prüfen: `python3 -m http.server 8000`
 
