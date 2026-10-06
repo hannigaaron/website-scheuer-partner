@@ -420,8 +420,9 @@ section[id],main[id]{scroll-margin-top:96px}
 
 /* ---------- Auftakt: senkrechte Lamellen, wie die Balken im Logo ---------- */
 .curtain{position:fixed;inset:0;z-index:500;pointer-events:none;display:flex}
-.curtain-slat{flex:1;background:var(--paper);border-right:1px solid var(--line-soft);will-change:transform}
-.curtain-slat:last-of-type{border-right:0}
+/* Die Lamellen überlappen um einen Pixel, sonst blitzt an der Naht die Seite dahinter durch */
+.curtain-slat{flex:0 0 calc(20% + 1px);margin-right:-1px;background:var(--paper);border-right:1px solid #ececec;will-change:transform}
+.curtain-slat:last-of-type{flex-basis:20%;margin-right:0;border-right:0}
 .curtain-logo{position:absolute;left:50%;top:50%;translate:-50% -50%;width:min(66vw,360px);height:auto;opacity:0}
 .curtain-bar{position:absolute;left:50%;top:calc(50% + min(19vw,110px));translate:-50% 0;width:min(40vw,180px);height:2px;
   background:var(--line-soft);overflow:hidden;opacity:0}
