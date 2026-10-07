@@ -46,7 +46,7 @@ def load(name, wght=None):
     return _cache[key]
 
 
-def text_path(text, font, size, wght=None, track=0.0, features=None):
+def text_path(text, font, size, wght=None, track=0.0, features=None, ox=0.0, oy=0.0):
     """Gibt (Pfad ab Nullpunkt auf der Grundlinie, Breite) zurück. track in em."""
     tt, hbf, upem = load(font, wght)
     buf = hb.Buffer()
@@ -60,7 +60,7 @@ def text_path(text, font, size, wght=None, track=0.0, features=None):
     for info, pos in zip(buf.glyph_infos, buf.glyph_positions):
         gname = tt.getGlyphName(info.codepoint)
         pen = SVGPathPen(gs, ntos=lambda v: f"{v:.2f}".rstrip("0").rstrip("."))
-        gs[gname].draw(TransformPen(pen, (s, 0, 0, -s, x + pos.x_offset * s, -pos.y_offset * s)))
+        gs[gname].draw(TransformPen(pen, (s, 0, 0, -s, ox + x + pos.x_offset * s, oy - pos.y_offset * s)))
         parts.append(pen.getCommands())
         x += pos.x_advance * s + track * size
     return " ".join(p for p in parts if p), x - track * size

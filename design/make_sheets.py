@@ -8,20 +8,20 @@ from make_logos import LOGOS, OUT, HERE
 CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 F = (HERE / "fonts").as_uri()
 
-def svg_of(num, key, variant):
-    s = (OUT / "svg" / f"{num}-{key}-{variant}.svg").read_text(encoding="utf-8")
+def svg_of(num, key, variant, svgdir=None):
+    s = ((svgdir or OUT / "svg") / f"{num}-{key}-{variant}.svg").read_text(encoding="utf-8")
     return re.sub(r'<svg ', '<svg role="img" ', s, 1)
 
-def row(num, key, name, desc):
+def row(num, key, name, desc, svgdir=None):
     return f'''<div class="row">
   <div class="lab"><span class="n">{num}</span><h2>{html.escape(name)}</h2><p>{html.escape(desc)}</p></div>
-  <div class="tile light">{svg_of(num, key, "farbe")}</div>
-  <div class="tile dark">{svg_of(num, key, "negativ")}</div>
+  <div class="tile light">{svg_of(num, key, "farbe", svgdir)}</div>
+  <div class="tile dark">{svg_of(num, key, "negativ", svgdir)}</div>
 </div>'''
 
-def page(items, nr, total):
-    rows = "".join(row(*i[:3], i[4]) for i in items)
-    return f'''<section class="page"><header><div><h1>Scheuer &amp; Partner</h1><p>Logo-Entwürfe, erste Runde</p></div><span>Seite {nr} von {total}</span></header>{rows}</section>'''
+def page(items, nr, total, svgdir=None, subtitle="Logo-Entwürfe, erste Runde"):
+    rows = "".join(row(i[0], i[1], i[2], i[4], svgdir) for i in items)
+    return f'''<section class="page"><header><div><h1>Scheuer &amp; Partner</h1><p>{html.escape(subtitle)}</p></div><span>Seite {nr} von {total}</span></header>{rows}</section>'''
 
 CSS = f'''
 @font-face{{font-family:"CG";src:url({F}/CormorantGaramond-normal.woff2);font-weight:300 700}}
@@ -43,20 +43,25 @@ header span{{font-size:16px;color:#838383;letter-spacing:.08em}}
 .tile svg{{width:auto;height:auto;max-width:84%;max-height:240px}}
 '''
 
-def main():
-    pages = [LOGOS[:5], LOGOS[5:]]
-    body = "".join(page(p, i + 1, len(pages)) for i, p in enumerate(pages))
+def build(logos, svgdir, outdir, prefix="uebersicht", subtitle="Logo-Entwürfe, erste Runde"):
+    pages = [logos[:5], logos[5:]]
+    body = "".join(page(p, i + 1, len(pages), svgdir, subtitle) for i, p in enumerate(pages))
     html_doc = f'<!doctype html><meta charset="utf-8"><style>{CSS}</style>{body}'
-    (OUT / "uebersicht.html").write_text(html_doc, encoding="utf-8")
+    (outdir / f"{prefix}.html").write_text(html_doc, encoding="utf-8")
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path=CHROME, args=['--no-sandbox'])
         pg = b.new_page(viewport={'width': 1800, 'height': 2060})
-        pg.goto((OUT / "uebersicht.html").as_uri()); pg.wait_for_timeout(600)
+        pg.goto((outdir / f"{prefix}.html").as_uri()); pg.wait_for_timeout(600)
         for i, el in enumerate(pg.query_selector_all('.page')):
-            el.screenshot(path=str(OUT / f"uebersicht-{i + 1}.png"))
-        pg.pdf(path=str(OUT / "uebersicht.pdf"), width='1800px', height='2060px', print_background=True)
+            el.screenshot(path=str(outdir / f"{prefix}-{i + 1}.png"))
+        pg.pdf(path=str(outdir / f"{prefix}.pdf"), width='1800px', height='2060px', print_background=True)
         b.close()
-    print("Übersichten fertig")
+    print("Übersichten fertig:", prefix)
+
+
+def main():
+    build(LOGOS, OUT / "svg", OUT)
+
 
 if __name__ == "__main__":
     main()

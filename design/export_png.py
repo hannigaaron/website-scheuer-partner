@@ -3,7 +3,9 @@
 import pathlib
 from playwright.sync_api import sync_playwright
 HERE = pathlib.Path(__file__).resolve().parent
-SVG = HERE / "logos/svg"; PNG = HERE / "logos/png"; PNG.mkdir(exist_ok=True)
+import sys
+BASE = HERE / (sys.argv[1] if len(sys.argv) > 1 else "logos")
+SVG = BASE / "svg"; PNG = BASE / "png"; PNG.mkdir(exist_ok=True)
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args=['--no-sandbox'])
     pg = b.new_page(viewport={'width': 2000, 'height': 1400})
