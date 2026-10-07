@@ -169,15 +169,18 @@ def l18():
 
 def l19():
     c = Canvas()
-    gap = 12
-    specs = [(22, 112), (50, 140), (22, 112)]
-    x, base = 0.0, 140.0
+    gap, t = 15, 5.5
+    specs = [(30, 116), (62, 146), (30, 116)]     # Breite, Höhe: schmal, breit, schmal
+    x, base = 0.0, 146.0
     d = ""
     for w, h in specs:
         r = w / 2
-        d += f"M{x:g} {base:g}V{base - h + r:g}A{r:g} {r:g} 0 0 1 {x + w:g} {base - h + r:g}V{base:g}Z "
+        yt = base - h
+        d += f"M{x:g} {base:g}V{yt + r:g}A{r:g} {r:g} 0 0 1 {x + w:g} {yt + r:g}V{base:g}Z "
+        ri = r - t
+        d += (f"M{x + t:g} {base:g}V{yt + r:g}A{ri:g} {ri:g} 0 0 1 {x + w - t:g} {yt + r:g}V{base:g}Z ")
         x += w + gap
-    c.path(d, bbox=(0, 0, x - gap, base))
+    c.path(d, rule="evenodd", bbox=(0, 0, x - gap, base))
     tx = x - gap + 42
     c.text("Scheuer & Partner", NAME_FONT, 78, tx, 82, wght=600, track=-0.004)
     c.text("Steuerberatungsgesellschaft mbB", "Inter-normal", 19, tx, 126, fill="{S}", wght=500, track=0.1)
@@ -216,7 +219,7 @@ LOGOS2 = [
     ("18", "bogen-gestapelt", "Bogen gestapelt", l18,
      "08 mittig, die Schrift darunter in einer Zeile. Gut für den Briefkopf."),
     ("19", "dreifach-bogen", "Dreifach-Bogen", l19,
-     "Aus den drei Balken werden drei Bögen. Das eigenständigste Zeichen dieser Runde."),
+     "Aus den drei Balken werden drei Bögen, nur als Linien. Leichter als gefüllt und eng verwandt mit 08."),
     ("20", "bogen-et", "Bogen mit Et-Zeichen", l20,
      "Das Et-Zeichen als Bildzeichen im Bogen. Verspielter, passt zur Wortmarke 04."),
 ]
