@@ -335,7 +335,7 @@ def index():
         <img src="img/digital-teaser.jpg" alt="Hand an einem Tablet mit Auswertungen und Kennzahlen" loading="lazy" width="1100" height="916" />
       </figure>
     </div>
-""" + SKONTO, alt=True, sid="digital")
+""", alt=True, sid="digital")
 
     p += section(f"""    <div class="section-head reveal">
       <p class="kicker">News</p>
@@ -359,10 +359,11 @@ def index():
 
 NEWSLETTER = "mailto:mail@scheuer-partner.de?subject=Anmeldung%20zum%20Newsletter&body=Bitte%20nehmen%20Sie%20mich%20in%20den%20Newsletter-Verteiler%20auf."
 
-SKONTO = """
-    <div class="calc reveal" id="skonto">
-      <h3>Skonto-Rechner</h3>
-      <p class="calc-note">Lohnt es sich mit Skontoabzug zu bezahlen oder nicht? Mit unserem Skonto-Rechner erhalten Sie rasch und mit nur wenigen Klicks Antwort darauf. Die Eingaben verlassen Ihren Browser nicht.</p>
+def skonto_calc():
+    """Skonto-Rechner (Beispielrechnung). Rechnet im Browser, sendet nichts."""
+    return """
+    <div class="calc reveal" id="skonto" style="margin-top:0">
+      <p class="calc-note">Beispielrechnung, die in Ihrem Browser läuft. Ihre Eingaben werden nicht übertragen. Sie ersetzt keine Beratung.</p>
       <div class="calc-grid">
         <div class="field"><label for="c-amount">Rechnungsbetrag in €</label><input id="c-amount" inputmode="decimal" value="5000" /></div>
         <div class="field"><label for="c-pct">Skonto in %</label><input id="c-pct" inputmode="decimal" value="2" /></div>
@@ -376,6 +377,7 @@ SKONTO = """
       </dl>
       <p class="calc-verdict" id="o-verdict"></p>
     </div>"""
+
 
 CTA_CONTACT_FULL = """
   <section class="cta" id="kontakt">
@@ -626,7 +628,9 @@ def digitale_kanzlei():
         gt("Informationen") +
         info_cards(P, [("Elektronische Rechnungen – Praxistipps", "elektronische_rechnungen"), ("ADDISON OneClick", "addison")]) +
         gt("Online-Rechner") + info_cards(P, [("Digital-Fitness-Check", "digitalfitness")]))
-    body += section(SKONTO.replace('<div class="calc reveal"', '<div class="calc reveal"').replace("margin-top:2.4rem", ""), alt=True, sid="rechner")
+    body += section(shead("Online-Rechner", "Skonto-Rechner",
+                          "Lohnt es sich mit Skontoabzug zu bezahlen oder nicht? Mit unserem Skonto-Rechner erhalten Sie rasch und mit nur wenigen Klicks Antwort darauf.")
+                    + skonto_calc(), alt=True, sid="rechner")
     subpage("digitale-kanzlei.html", "Digitale Kanzlei", "Digitalisierung im Rechnungswesen: elektronische Rechnungen, ADDISON OneClick und Online-Rechner von Scheuer & Partner.",
             "Digitale Kanzlei",
             "Digitalisierung! Seit Jahren arbeiten wir mit unseren Mandanten auch online zusammen. Nutzen Sie unser Know-how für Ihre Onlinebuchhaltung. Erfahren Sie jetzt mehr.",

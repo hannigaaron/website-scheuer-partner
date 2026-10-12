@@ -74,7 +74,7 @@ Der Auftakt (fünf Lamellen) läuft nur auf der Startseite, einmal pro Tab.
   Domain bzw. `rechner.atikon.de`. Zieht die Domain um, brechen diese Links,
   falls der atikon-Vertrag endet. Mit der Kanzlei klären, ob der Dienst bleibt oder ersetzt wird.
 - Newsletter und Bewerbung laufen aktuell über `mailto:`. Ersatz: Formular mit Double-Opt-In.
-- Der Skonto-Rechner auf der Startseite ist eine eigene Beispielrechnung (Formel: Skonto / (100 − Skonto) × 360 / (Ziel − Frist)). Mit der Kanzlei abstimmen.
+- Der Skonto-Rechner (nur auf der Seite Digitale Kanzlei, nicht auf der Startseite) ist eine eigene Beispielrechnung (Formel: Skonto / (100 − Skonto) × 360 / (Ziel − Frist)). Mit der Kanzlei abstimmen.
 - Teamfotos, Vektor-Logo (SVG), endgültige Domain.
 
 ## Wichtig: Arbeit sichern
